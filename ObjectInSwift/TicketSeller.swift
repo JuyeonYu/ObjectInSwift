@@ -15,14 +15,6 @@ class TicketSeller {
   }
   
   func sell(to audience: Audience) {
-    if audience.bag.hasInvitation {
-      let ticket: Ticket = ticketOffice.tickets.removeFirst()
-      audience.bag.ticket = ticket
-    } else {
-      let ticket: Ticket = ticketOffice.tickets.removeFirst()
-      audience.bag.minusAmount(amount: ticket.fee)
-      ticketOffice.plusAmount(amount: ticket.fee)
-      audience.bag.ticket = ticket
-    }
+    ticketOffice.plusAmount(amount: audience.buy(ticket: ticketOffice.tickets.removeFirst()))
   }
 }
