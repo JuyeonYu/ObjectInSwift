@@ -15,13 +15,6 @@ class Audience {
   }
   
   func buy(ticket: Ticket) -> Double {
-    if bag.hasInvitation {
-      bag.ticket = ticket
-      return 0
-    } else {
-      bag.minusAmount(amount: ticket.fee)
-      bag.ticket = ticket
-      return ticket.fee
-    }
+    bag.hold(ticket: ticket)
   }
 }

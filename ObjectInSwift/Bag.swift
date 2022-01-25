@@ -8,10 +8,10 @@
 import Foundation
 
 class Bag {
-  var amount: Double = 0
-  var invitation: Invitation?
-  var ticket: Ticket?
-  var hasInvitation: Bool {
+  private var amount: Double = 0
+  private var invitation: Invitation?
+  private var ticket: Ticket?
+  private var hasInvitation: Bool {
     invitation != nil
   }
   
@@ -23,10 +23,21 @@ class Bag {
     self.init(amount: amount, invitation: nil)
   }
   
-  func minusAmount(amount: Double) {
+  private func minusAmount(amount: Double) {
     self.amount -= amount
   }
-  func plusAmount(amount: Double) {
+  private func plusAmount(amount: Double) {
     self.amount += amount
+  }
+  
+  func hold(ticket: Ticket) -> Double {
+    if hasInvitation {
+      self.ticket = ticket
+      return 0
+    } else {
+      minusAmount(amount: ticket.fee)
+      self.ticket = ticket
+      return ticket.fee
+    }
   }
 }
