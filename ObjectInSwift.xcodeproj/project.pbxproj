@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CEA5BC2827A039E200B86A91 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC2727A039E200B86A91 /* main.swift */; };
+		CEA5BC2F27A03A5F00B86A91 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC2E27A03A5F00B86A91 /* Invitation.swift */; };
+		CEA5BC3327A03ABB00B86A91 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3227A03ABB00B86A91 /* Ticket.swift */; };
+		CEA5BC3527A03ADA00B86A91 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3427A03ADA00B86A91 /* Bag.swift */; };
+		CEA5BC3727A03B9D00B86A91 /* Audience.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3627A03B9D00B86A91 /* Audience.swift */; };
+		CEA5BC3927A03BCD00B86A91 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3827A03BCD00B86A91 /* TicketOffice.swift */; };
+		CEA5BC3B27A03C4E00B86A91 /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3A27A03C4E00B86A91 /* TicketSeller.swift */; };
+		CEA5BC3D27A03C8100B86A91 /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BC3C27A03C8100B86A91 /* Theater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		CEA5BC2427A039E200B86A91 /* ObjectInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA5BC2727A039E200B86A91 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEA5BC2E27A03A5F00B86A91 /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		CEA5BC3227A03ABB00B86A91 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		CEA5BC3427A03ADA00B86A91 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		CEA5BC3627A03B9D00B86A91 /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
+		CEA5BC3827A03BCD00B86A91 /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		CEA5BC3A27A03C4E00B86A91 /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
+		CEA5BC3C27A03C8100B86A91 /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				CEA5BC2727A039E200B86A91 /* main.swift */,
+				CEA5BC2E27A03A5F00B86A91 /* Invitation.swift */,
+				CEA5BC3227A03ABB00B86A91 /* Ticket.swift */,
+				CEA5BC3427A03ADA00B86A91 /* Bag.swift */,
+				CEA5BC3627A03B9D00B86A91 /* Audience.swift */,
+				CEA5BC3827A03BCD00B86A91 /* TicketOffice.swift */,
+				CEA5BC3A27A03C4E00B86A91 /* TicketSeller.swift */,
+				CEA5BC3C27A03C8100B86A91 /* Theater.swift */,
 			);
 			path = ObjectInSwift;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA5BC2F27A03A5F00B86A91 /* Invitation.swift in Sources */,
+				CEA5BC3327A03ABB00B86A91 /* Ticket.swift in Sources */,
+				CEA5BC3727A03B9D00B86A91 /* Audience.swift in Sources */,
+				CEA5BC3527A03ADA00B86A91 /* Bag.swift in Sources */,
 				CEA5BC2827A039E200B86A91 /* main.swift in Sources */,
+				CEA5BC3D27A03C8100B86A91 /* Theater.swift in Sources */,
+				CEA5BC3927A03BCD00B86A91 /* TicketOffice.swift in Sources */,
+				CEA5BC3B27A03C4E00B86A91 /* TicketSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
